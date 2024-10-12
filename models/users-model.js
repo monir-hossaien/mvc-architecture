@@ -1,13 +1,4 @@
 
-const users = [
-    {
-        name : "Monir Hossain",
-        age : 23
-    },
-    {
-        name: 'Nusrat',
-        age: 14
-    }
-]
+const users = []
 
-module.exports = users;
+module.exports = users

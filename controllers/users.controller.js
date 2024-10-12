@@ -9,7 +9,7 @@ exports.getUser = (req, res) => {
 
 // POST request: Add a new user
 exports.postUser = (req, res) => {
-    const name = req.body.fullName;
+    const name = req.body.name;
     const age = Number(req.body.age);
 
     let user ={
